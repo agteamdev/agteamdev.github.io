@@ -1,18 +1,21 @@
 /*
-Theme Name: AGTEAM GITHUB HP
-Theme URI: https://agteam.site/
+Theme Name: AG TEAM DEV GITHUB HP
+Theme URI: https://agdev.ml/
 Description: Theme is specially created for the site agteam.site and AGDEV Team commands. Using theme punished bad karma! Be men, appreciate the work of others. 
-Author: Al3xG0r [AGTEAM]
+Author: Al3xG0r [AGDEV]
 Author URI: https://alexgor.com/
-Version: 2.1.3
-Tags: site
+Version: 2.1.19
+Tags: github, page
 */
 
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
-body {font-family: 'Tahoma'; font-style:italic; background: url(/img/bg.jpg) no-repeat center fixed; background-size: cover;}
+@import url(https://fonts.googleapis.com/css2?family=Cairo&display=swap);
+* {margin: 0; padding: 0;}
 
-
-.index {position: fixed; top: 60%; left: 50%; width:600px; height:200px; margin: -100px 0 0 -300px; text-align: center; text-shadow: 1px 1px 1px #050505; color:#ffffff;}
-.index h1 {font-size:16px;}
-.index h2 {font-family: 'Kaushan Script', cursive; font-size:50px;}
-.copy {font-size:11px;}
+#world {position: absolute; width: 100%; height: 100%; overflow: hidden; background: linear-gradient(#e4e0ba, #f7d9aa);}
+.index {position: absolute; width:500px; left:50%; margin-left: -250px; top: 100px; z-index: 9999; text-align: center;  text-shadow: 1px 1px 1px #cccccc; color:#ffffff;}
+.index h1 {font-family: 'Kaushan Script', cursive; font-size:50px;}
+.index h2 {font-family: 'Cairo', sans-serif; font-size:30px;}
+.index span {position: absolute; width:500px; left:50%; margin-left: -250px; top: 330%; z-index: 9999; text-align: center; font-size:12px; color: #ffffff; text-shadow: none;}
+.index span a{font-family: 'Cairo', sans-serif; color: #ffffff;}
+.index a{text-shadow: none; font-size:12px; color: #4C7CA0; font-family: 'Cairo', sans-serif;}
